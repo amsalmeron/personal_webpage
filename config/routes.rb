@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   # get '/', to: 'welcome#index'
   root to: 'welcome#index'
 
-  resources :portfolio, only: :index
+  resources :projects, only: :index
 end

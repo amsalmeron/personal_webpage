@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe "welcome page" do
+RSpec.describe "projects page" do
     
-    it 'has my name, introduction and home button' do
-        visit root_path
-        expect(page).to have_content('Antonio')
-        expect(page).to have_content('Software Developer')
+    it 'has my a description of a project in projects: Dude, Hows My City?' do
+        visit projects_path
+        expect(current_path).to  eq('/projects')
+        expect(page).to have_content("Dude, How's My City?")
 
         click_button 'Home'
         expect(current_path).to eq(root_path)
@@ -22,4 +22,5 @@ RSpec.describe "welcome page" do
         click_button 'Projects'
         expect(current_path).to eq('/projects') 
     end
+    
 end
