@@ -244,6 +244,8 @@
           null,
           null,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -270,11 +272,11 @@
           null
         ]
       },
-      "/Users/antoniosalmeron/personal_website/personal_webpage_rails/app/controllers/welcome_controller.rb": {
+      "/Users/antoniosalmeron/personal_website/personal_webpage_rails/app/controllers/portfolio_controller.rb": {
         "lines": [
           1,
-          1,
           null,
+          1,
           null,
           null,
           null
@@ -285,8 +287,18 @@
           1,
           null
         ]
+      },
+      "/Users/antoniosalmeron/personal_website/personal_webpage_rails/app/controllers/welcome_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1672681248
+    "timestamp": 1672681521
   }
 }
